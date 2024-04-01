@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+nav {
+  background-color: #343a40;
+  padding: 20px 0;
+}
+nav a {
+  color: #fff;
+  font-size: 16px;
+  margin: 0 15px;
+  text-decoration: none;
+}
+.fixed-size {
+  height: 300px; 
+}
+
+.banner {
+  background-image: url("ban.jpg");
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+.banner h1 {
+  font-size: 36px;
+  padding-left:150px;
+  margin-bottom: 10px;
+}
+.banner p {
+  font-size: 20px;
+}
+.about-me,
+.services,
+.portfolio,
+.contact {
+  padding: 50px 0;
+}
+.section-title {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+.card {
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card-body {
+  padding: 20px;
+}
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer a {
+  color: #fff;
+  margin: 0 10px;
+}
